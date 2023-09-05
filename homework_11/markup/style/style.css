@@ -1,0 +1,169 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(173, 173, 173);
+  text-transform: uppercase;
+  transition: all 0.6s;
+}
+
+.conteiner {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* ------------------------------ */
+
+.nav {
+  background: rgb(83, 83, 83);
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.item_list {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  padding: 15px 0 0 40px;
+  transform: translateX(100%);
+  transition: all 0.7s;
+}
+
+.item_list>li {
+  padding: 20px 0;
+}
+
+.item_list>li span {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+a:hover {
+  color: #ff6600;
+}
+
+#opener:checked~.item_list {
+  transform: translateX(0);
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #ff6600;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  background: #5e5e5e;
+  color: #fff;
+}
+
+/* ---------------------------------- */
+
+.title__content {
+  transform: translateX(0);
+  transition: all 0.7s;
+  margin-top: -10px;
+}
+
+#opener:checked~.title__content {
+  transform: translateX(-300px);
+}
+
+.opener {
+  width: 40px;
+  height: 40px;
+  float: right;
+  position: relative;
+  z-index: 5;
+  font-size: 0;
+  transform: translateX(0);
+  transition: all 0.7s;
+}
+
+#opener:checked~.opener {
+  transform: translateX(-300px);
+}
+
+.opener::before,
+.opener::after,
+.opener span {
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 2px;
+  background: #fff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.7s;
+}
+
+.opener::before {
+  top: 35%;
+}
+
+.opener::after {
+  top: 65%;
+}
+
+#opener:checked~.opener::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+  top: 50%;
+}
+
+#opener:checked~.opener::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+  top: 50%;
+}
+
+#opener:checked~.opener span {
+  display: none;
+}
+
+#opener {
+  opacity: 0;
+}
+
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.content {
+  padding: 100px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 140px;
+  background-image: linear-gradient(360deg, #5e5e5e, #fff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+h2 {
+  font-size: 30px;
+}

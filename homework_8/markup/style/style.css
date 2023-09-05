@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+.conteiner {
+  max-width: 1100px;
+  height: 800px;
+  background: #C4C4C4;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.conteiner1 {
+  width: 1000px;
+  background: #E6E6E6;
+  margin: 0 auto 50px;
+}
+
+.conteiner1_box1 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: #FC8F8F;
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+}
+
+.conteiner1_box2 {
+  display: inline;
+  float: right;
+  width: 200px;
+  height: 200px;
+  background: #FC8F8F;
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+}
+
+/* ------------------------------ */
+
+.conteiner2 {
+  width: 1000px;
+  background: #E6E6E6;
+  margin: 0 auto 50px;
+}
+
+.conteiner2_box {
+  float: right;
+}
+
+.conteiner2_box1 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: #FC8F8F;
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+}
+
+
+.conteiner2_box2 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #FC8F8F;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.conteiner2_box3 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #FC8F8F;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.conteiner2_box4 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #FC8F8F;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.conteiner2_box5 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #FC8F8F;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+}
+
+/* ---------------------------------- */
+
+.conteiner3 {
+  width: 1000px;
+  background: #E6E6E6;
+  margin: 0 auto;
+}
+
+.conteiner3_box1 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: #FC8F8F;
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.conteiner3_box2 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: #FC8F8F;
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+}
+
+.conteiner3_right {
+  float: right;
+}
+
+.conteiner3_box3 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: #FC8F8F;
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.conteiner3_box4 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: #FC8F8F;
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+}
+
+/* -------------------- */

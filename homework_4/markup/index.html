@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first table</title>
+    <style>
+        table {
+            table-layout: fixed;
+            width: 100%;
+            border: 1px solid #000000;
+        }
+
+        th,
+        td {
+            background-color: #fffb00;
+            border: 1px solid #000000;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">MY FIRST TABLE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>First cell</td>
+                <td>Second cell</td>
+                <td rowspan="3">6 cell merged together</td>
+            </tr>
+            <tr>
+                <td colspan="2">2 cell merged into one</td>
+
+            </tr>
+            <tr>
+                <td>1st cell 3rd row</td>
+                <td>2nd cell 3rd row</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Do you like tables?</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

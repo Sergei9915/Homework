@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: #EEEFF1;
+  padding: 79px 0 141px;
+}
+
+.box {
+  max-width: 1150px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* ------------------------------- */
+
+.item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item>li {
+  display: inline-block;
+  padding-right: 42px;
+}
+
+.list-item :hover {
+  transition: all 0.3s;
+  color: #34547A;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  line-height: 164%;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+
+.content-box {
+  margin-top: 151px;
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h1~p {
+  margin: 60px auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px 40px;
+  background: #34547A;
+  color: #fff;
+  text-align: center;
+  width: 225px;
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  background-color: green;
+  box-shadow: 1px 1px 2px #000;
+}
+
+/* ------------------------------ */
+
+main {
+  background: #F9F9F9;
+  padding-top: 112px;
+}
+
+.section-text {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+h2~p {
+  line-height: 164%;
+  color: #727272
+}
+
+.section-icon {
+  margin: 100px 0;
+  background: #34547A;
+}
+
+.section-list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section-list>li {
+  display: inline-block;
+  padding: 100px 0;
+  margin-right: 45px;
+}
+
+.icon-project {
+  color: #fff;
+  font-size: 50px;
+}
+
+.icon-project~div {
+  display: inline-block;
+  margin-left: 20px;
+  color: #fff;
+}
+
+h3 {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: -6px;
+}
+
+/* ----------------*/
+
+.video {
+  display: inline-block;
+  width: 1120px;
+  height: 600px;
+  margin: 57px auto 100px;
+}
+
+/* ---------- */
+footer {
+  padding: 50px 0;
+  background: #34547A;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.footer-text {
+  font-size: 13px;
+  font-weight: 400;
+}

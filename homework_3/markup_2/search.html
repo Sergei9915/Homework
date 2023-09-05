@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+
+<body>
+    <form action="https://fom.in.ua/echo">
+        <div>
+            <fieldset>
+                <b>Тип кузова:</b><br>
+                <label for="Yni">Універсал</label>
+                <input id="Yni" type="radio" name="tip1"><br>
+                <label for="Cyp">Купе</label>
+                <input id="Cyp" type="radio" name="tip1"><br>
+                <label for="Sedan">Седан</label>
+                <input id="Sedan" type="radio" name="tip1"><br>
+                <label for="Cabrio">Кабріолет</label>
+                <input id="Cabrio" type="radio" name="tip1"><br>
+                <label for="Hetch">Хетчбек</label>
+                <input id="Hetch" type="radio" name="tip1"><br>
+                <label for="Krosov">Позашляховик/Кросовер</label>
+                <input id="Krosov" type="radio" name="tip1"><br>
+                <label for="Pikap">Пікап</label>
+                <input id="Pikap" type="radio" name="tip1"><br>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <label><b>Марка авто:</b></label>
+                <select>
+                    <option value="Markaavto">Оберіть марку</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Opel">Opel</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Porsche">Porsche</option>
+                    <option value="Smart">Smart</option>
+                    <option value="Volkswagen">Volkswagen</option>
+                </select>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <label><b>Країна виробник:</b></label>
+                <select>
+                    <option value="Contries_virob">Оберіть країну</option>
+                    <option value="Україна">Україна</option>
+                    <option value="США">США</option>
+                    <option value="Японія">Японія</option>
+                    <option value="Польша">Польша</option>
+                    <option value="Німеччина">Німеччина</option>
+                    <option value="Іспанія">Іспанія</option>
+                    <option value="Італія">Італія</option>
+                    <option value="Англія">Англія</option>
+                </select>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <b>Ціна:</b>
+                <input type="number" placeholder="Від">
+                <input type="number" placeholder="До">
+                <select>
+                    <option value="usd">$</option>
+                    <option value="uah">грн.</option>
+                    <option value="eur">€</option>
+                </select>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <label><b>Рік випуску:</b></label>
+                <select>
+                    <option value="vid">Від</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                </select>
+                <select>
+                    <option value="do">До</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                </select>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <b>Стан:</b><br>
+                <label for="Nova">Новая</label>
+                <input id="Nova" type="checkbox"><br>
+                <label for="dtp">Була у ДТП</label>
+                <input id="dtp" type="checkbox"><br>
+                <label for="kredit">В Кредиті</label>
+                <input id="kredit" type="checkbox"><br>
+                <label for="Uncleared">Нерозмитнена</label>
+                <input id="Uncleared" type="checkbox">
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <label><b>Тип палива:</b></label>
+                <select>
+                    <option value="tip">Тип</option>
+                    <option value="gaz">Газ</option>
+                    <option value="benz">Бензин</option>
+                    <option value="dizel">Дизель</option>
+                    <option value="gibr">Гібрид</option>
+                </select>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <b>Тип коробки передач:</b>
+                <input id="Mechanics" type="radio" name="kkp" checked>
+                <label for="Mechanics">Механіка</label>
+                <input id="avtomat" type="radio" name="kkp">
+                <label for="avtomat">Автомат</label>
+                <input id="tiptronic" type="radio" name="kkp">
+                <label for="tiptronic">Типтронік</label>
+                <input id="Robot" type="radio" name="kkp">
+                <label for="Robot">Робот</label>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <b>Колір:</b>
+                <input type="color">
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <b>Комфорт:</b><br>
+                <label for="dor">Доводчик дверей</label>
+                <input id="dor" type="radio" name="komfort"><br>
+                <label for="comp">Бортовий комп'ютер</label>
+                <input id="comp" type="radio" name="komfort"><br>
+                <label for="dvig">Дистанційний запуск двигуна</label>
+                <input id="dvig" type="radio" name="komfort"><br>
+                <label for="dzer">Підігрів дзеркал</label>
+                <input id="dzer" type="radio" name="komfort"><br>
+                <label for="centr">Передній центральний підлокітник</label>
+                <input id="centr" type="radio" name="komfort"><br>
+                <label for="start_stop">Система «старт-стоп»</label>
+                <input id="start_stop" type="radio" name="komfort">
+            </fieldset>
+        </div>
+        <div>
+            <button type="submit">Поиск</button>
+            <button type="reset">Сбросить</button>
+        </div>
+    </form>
+</body>
+
+</html>
