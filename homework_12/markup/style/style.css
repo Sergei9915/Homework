@@ -240,7 +240,7 @@ h3 {
 
 .content_text>p {
   line-height: 30px;
-  padding: 35px 0;
+  margin: 35px 0;
 }
 
 .content_text>.content_click {
@@ -428,7 +428,7 @@ q {
 }
 
 .integrate>p {
-  padding-bottom: 25px;
+  margin-bottom: 25px;
   font-size: 25px;
 }
 
@@ -444,7 +444,7 @@ q {
 }
 
 .local>p {
-  padding: 29px 0 54px;
+  margin: 29px 0 54px;
   line-height: 125%;
   font-weight: 600;
 }
@@ -478,7 +478,7 @@ q {
 
 .footer_card>p {
   line-height: 150%;
-  padding: 15px 0;
+  margin: 15px 0;
 }
 
 .footer_card>a {
@@ -493,13 +493,14 @@ q {
 
 .footer_nav {
   display: flex;
-  justify-content: space-between;
+  align-items: flex-start;
   font-size: 15px;
   line-height: 100%;
+  width: 850px;
 }
 
 .col_nav {
-  padding-left: 150px;
+  width: 100%;
 }
 
 .footer_nav h5 {
