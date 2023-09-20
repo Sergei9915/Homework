@@ -1,0 +1,26 @@
+.email-forms {
+  >h3 {
+    margin-bottom: 11px;
+  }
+  >p {
+    color: $text;
+    margin-bottom: 27px;
+  }
+  &__forms {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    >input {
+      border-radius: 3px;
+      border: 1px solid #E5E5E5;
+      padding: 17px 15px;
+      transition: all 0.5s;
+      &:hover {
+        border-color: $bg-btn-sm;
+      }
+      &:hover::placeholder {
+        color: $bg-btn-sm;
+      }
+    }
+  }
+}

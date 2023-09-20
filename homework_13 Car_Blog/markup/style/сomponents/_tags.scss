@@ -1,0 +1,17 @@
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -5px;
+  >li {
+    padding: 5px;
+  }
+  a {
+    color: $black;
+    display: block;
+    background: $bg-btn-inst;
+    padding: 7px 17px;
+    &:hover {
+      background: $bg-btn-sm;
+    }
+  }
+}

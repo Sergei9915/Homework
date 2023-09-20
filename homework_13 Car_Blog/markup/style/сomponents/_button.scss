@@ -1,0 +1,17 @@
+.btn {
+  display: block;
+  color: $white;
+  padding: 17px 82px;
+  background: $bg-btn-big;
+  border-radius: 5px;
+  text-align: center; 
+  font-weight: 700;
+  
+  &--pad {
+    padding: 17px 64px;
+  }
+
+  &:hover {
+    background: $bg-btn-sm;
+  }
+}

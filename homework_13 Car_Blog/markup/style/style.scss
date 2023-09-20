@@ -1,0 +1,23 @@
+// Normalize ---
+@import "./normalize/normalize";
+
+// Variable ---
+@import "./variable/variable";
+
+// Base ---
+@import "./base/_fonts";
+@import "./base/base";
+
+
+// Sections ---
+@import "./sections/header";
+@import "./sections/main";
+
+//  Components ---
+@import "./сomponents/menu";
+@import "./сomponents/cards";
+@import "./сomponents/label";
+@import "./сomponents/button";
+@import "./сomponents/tags";
+@import "./сomponents/forms";
+@import "./сomponents/pages";
